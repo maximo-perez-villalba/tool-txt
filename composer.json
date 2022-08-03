@@ -3,7 +3,7 @@
 	"description" : "La clase TXT agrupa herramientas para trabajar sobre texto al estilo navaja suiza.",
 	"type" : "library",
 	"version" : "1.0.0",
-	"license" : "GPL-3.0 license",
+	"license" : "MIT",
 	"authors" : [{
 			"name" : "Máximo Perez Villalba",
 			"email" : "maximo.villalba@gmail.com"
