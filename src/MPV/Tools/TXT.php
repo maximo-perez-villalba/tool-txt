@@ -45,7 +45,7 @@ class TXT
 	 * @see https://www.php.net/manual/es/function.strcmp.php
 	 * 
 	 * @param string $otherText
-	 * @return bool
+	 * @return int
 	 */
 	public function compare( string $otherText ) : int
 	{
