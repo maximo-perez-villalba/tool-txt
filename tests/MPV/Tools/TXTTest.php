@@ -1,14 +1,11 @@
 <?php
-namespace tests\codemax\tool\txt;
+namespace tests\MPV\Tools;
 
 use PHPUnit\Framework\TestCase;
-use codemax\tool\TXT;
-
+use MPV\Tools\TXT;
 
 /**
- *
  * @author Máximo Perez Villalba
- *        
  */
 class TXTTest extends TestCase
 {

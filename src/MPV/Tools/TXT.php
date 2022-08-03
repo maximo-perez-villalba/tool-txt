@@ -1,22 +1,18 @@
 <?php
-namespace codemax\tool;
+namespace MPV\Tools;
 
 /**
- *
- * @author Máximo
- *        
+ * La clase TXT agrupa herramientas para trabajar sobre texto al estilo navaja suiza.
+ * 
+ * @author Máximo Perez Villalba
  */
 class TXT 
 {
 	
-	/**
-	 * 
-	 * @var string
-	 */
+	/** @var string */
 	private $txt = '';
 	
 	/**
-	 *
 	 * @param string $text
 	 * @return TXT
 	 */
@@ -24,8 +20,8 @@ class TXT
 	{
 		return new TXT( $text );
 	}
+	
 	/**
-	 * 
 	 * @param string $text
 	 */
 	public function __construct( string $text )
@@ -34,7 +30,6 @@ class TXT
 	}
 
 	/**
-	 * 
 	 * @param string $otherText
 	 * @return bool
 	 */
@@ -58,7 +53,6 @@ class TXT
 	}
 	
 	/**
-	 *
 	 * @param string $otherText
 	 * @return bool
 	 */
@@ -68,7 +62,6 @@ class TXT
 	}
 	
 	/**
-	 * 
 	 * @param string $prefix
 	 * @return bool
 	 */
@@ -78,7 +71,6 @@ class TXT
 	}
 	
 	/**
-	 * 
 	 * @param string $posfix
 	 * @return bool
 	 */
@@ -88,7 +80,6 @@ class TXT
 	}
 	
 	/**
-	 *
 	 * @param string $separator
 	 * @param bool $includeSeparator
 	 * @return string
@@ -104,7 +95,6 @@ class TXT
 	}
 	
 	/**
-	 * 
 	 * @param string $separator
 	 * @param bool $includeSeparator
 	 * @return string

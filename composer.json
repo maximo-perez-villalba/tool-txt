@@ -1,10 +1,9 @@
 {
 	"name" : "maximo-perez-villaba/tool-txt",
-	"description" : "La clase TXT agrupa herramientas para trabajar sobre texto.",
+	"description" : "La clase TXT agrupa herramientas para trabajar sobre texto al estilo navaja suiza.",
 	"type" : "library",
-	"version" : "1.2.0",
-	"minimum-stability" : "stable",
-	"license" : "proprietary",
+	"version" : "1.0.0",
+	"license" : "GPL-3.0 license",
 	"authors" : [{
 			"name" : "Máximo Perez Villalba",
 			"email" : "maximo.villalba@gmail.com"
@@ -12,12 +11,12 @@
 	],
 	"autoload" : {
 		"psr-4" : {
-			"codemax\\tool\\" : "src/codemax/tool/"
+			"MPV\\Tools\\" : "src/MPV/Tools/"
 		}
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"tests\\codemax\\tool\\txt\\" : "tests/codemax/tool/txt/"
+			"Tests\\MPV\\Tools\\" : "tests/MPV/Tools/"
 		}
 	},
 	"require" : {
@@ -26,5 +25,6 @@
 	"require-dev" : {
 		"phpunit/phpunit" : "^9.4"
 	},
-	"prefer-stable" : true
+	"prefer-stable" : true,
+	"minimum-stability" : "stable"
 }
